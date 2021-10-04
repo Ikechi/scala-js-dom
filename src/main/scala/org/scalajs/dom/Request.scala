@@ -16,7 +16,7 @@ import scala.scalajs.js.annotation._
 @JSGlobal
 class Request(input: RequestInfo, init: RequestInit = null) extends Body {
  
-  def body: BodyInit: js.native
+  def body: BodyInit = js.native
 
   /** Contains the request's method (GET, POST, etc.) */
   def method: HttpMethod = js.native
